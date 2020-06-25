@@ -2,6 +2,8 @@
 
 Projecte per fer tests d'UI de la web de vaques en C#.
 
+Encara que no ho diu (encara) el camió pot portar com a màxim 1000 kg.
+
 ![vaques](img/vaques.gif)
 
 Fa servir:
