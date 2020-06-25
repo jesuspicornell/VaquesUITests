@@ -1,0 +1,6 @@
+[submodule "vacawasm"]
+	path = vacawasm
+	url = git@github.com:CursEines/VaquesFrontend.git
+[submodule "vaquesrest"]
+	path = vaquesrest
+	url = git@github.com:CursEines/VaquesBackend.git
