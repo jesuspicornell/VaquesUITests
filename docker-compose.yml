@@ -3,6 +3,7 @@ services:
   frontend:
     build:
       context: vacawasm
+      dockerfile: $PWD/Dockerfile-wasm
     ports:
       - "3000:80"
     networks:
@@ -10,7 +11,7 @@ services:
   rest:
     build:
       context: vaquesrest
-      dockerfile: Dockerfile
+      dockerfile: $PWD/Dockerfile-rest
     ports:
       - 4567:4567
     networks:
