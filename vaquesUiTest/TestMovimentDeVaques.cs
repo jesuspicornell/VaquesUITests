@@ -21,6 +21,9 @@ namespace VaquesTest
             // Crea el navegador
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("--lang=ca --window-size=1920,1080");
+            options.AddArguments("--disable-dev-shm-usage");
+            options.AddArgument("--whitelisted-ips");
+            options.AddArgument("--no-sandbox");
             options.SetLoggingPreference(LogType.Browser, LogLevel.All);
             var headLess = false;
 
