@@ -10,6 +10,7 @@ pipeline {
 		stage("test") {
 		steps	{
 			echo "Testejant..."
+                        sh "pwd ; ls" 
 			sh "docker-compose up -d"
 			sleep 30
 			
