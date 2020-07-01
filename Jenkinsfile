@@ -15,7 +15,7 @@ pipeline {
 				sleep 30
 				}
 			
-			}
+			
 			
 			dir("/home/jpicornell/dia4/VaquesUITests/vaquesUiTest") {
 				sh "dotnet test"
