@@ -11,6 +11,7 @@ pipeline {
 		steps	{
 			echo "Testejant..."
                         sh "pwd ; ls" 
+			sh "docker run hello-world"
 			sh "docker-compose up -d"
 			sleep 30
 			
